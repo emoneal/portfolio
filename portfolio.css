@@ -1,8 +1,50 @@
-.fa-linkedin {
+  head {
+      background-color: black;
+  }
+  body {
+    background-color: black;
+    margin:0;
+    padding:0;
+}
+  .fa-linkedin {
     color: indigo;
   }
 
   .details {
-      background-color:cornsilk;
-      font-family:fonts/Roboto;
+      background-color:white;
+      font-family: 'Roboto', sans-serif;
+      position:relative;
+      margin: 20px 0px 0px 100px;
+      padding: 15px 375px 100px 20px;
+      width:70%;
+      border-radius: 20px;
+      z-index: 1;
+  }
+
+  #name {
+      background-color:white;
+      position:relative;
+      width:68.5%;
+      font-family: 'Roboto', sans-serif;
+      padding: 5px 370px 25px 50px;
+      margin: 20px 10px 0px 100px;
+      border-radius: 20px;
+  }
+
+  #resumepicture {
+      margin-right: 100px;
+      margin-top: 20px;
+      z-index: 2;
+      position:relative;
+      padding: 20px 0px 0px 0px;
+      
+  }
+  .form {
+    background-color:white;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    width: 70%;
+    margin: 5px 10px 30px 100px;
+    padding: 10px 200px 10px 200px;
+    border-radius: 20px;
   }
